@@ -5,11 +5,17 @@ body {
     background-size: cover;
     background-position: center;
 }
+h1 {
+    color: limegreen;
+}
+h2 {
+    color: limegreen;
+}
 nav a:link, a:visited {
     color: white;
     text-decoration: none;
     cursor: pointer;
 }
 nav a:link:active, a:visited:active {
-    color: white;
+    color: limegreen;
 }
