@@ -1,0 +1,50 @@
+body {
+    margin:0;
+    font-family: Calibri;
+    height:100%;
+}
+nav {
+    background-color:black;
+    padding:10px;
+}
+nav a:link, a:visited {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+nav a:link:active, a:visited:active {
+    color: white;
+}
+main {
+    display:inline-block;
+    width:100%;
+}
+footer {
+    background-color:black;
+    padding:20px;
+    color:white;
+    position: fixed;
+    width:30%;
+    bottom:-10%;
+}
+footer p {
+    text-align:right;
+    margin-right:5%;
+}
+.banner {
+    width:100%;
+}
+td {
+    border: 1px solid black;
+}
+.links a {
+    display:block;
+}
+main table {
+    float:right;
+    width:50%;
+}
+main article {
+    float:left;
+    width:50%;
+}
