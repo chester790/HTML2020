@@ -4,11 +4,9 @@ body {
     background-size: cover;
     background-position: center;
 }
-h1 {
+main {
     color: limegreen;
-}
-h2 {
-    color: limegreen;
+    font-family: "Agency FB";
 }
 nav a:link, a:visited {
     color: white;
@@ -16,5 +14,11 @@ nav a:link, a:visited {
     cursor: pointer;
 }
 nav a:link:active, a:visited:active {
-    color: limegreen;
+    color: red;
+}
+footer{
+    color: red;
+    bottom: 0%;
+    padding: 20px;
+    position: fixed;
 }
