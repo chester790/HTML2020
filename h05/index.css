@@ -1,3 +1,23 @@
 body {
-
+    background-color:rgb(252, 235, 235);
+}
+.image {
+    float: left;
+    width: 50%;
+}
+.image img{
+    float: right;
+    width: 600px;
+    padding: 5px;
+}
+.multiple images img {
+    width: 600px;
+}
+nav {
+    margin-left: 15px;
+}
+.articles {
+    width: 82%;
+    display: grid;
+    margin: auto;
 }
