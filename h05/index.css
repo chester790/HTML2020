@@ -10,7 +10,7 @@ body {
     width: 600px;
     padding: 5px;
 }
-.multiple images img {
+.multiple .images img {
     width: 600px;
 }
 nav {
@@ -20,4 +20,14 @@ nav {
     width: 82%;
     display: grid;
     margin: auto;
+}
+form {
+    display: block;
+}
+.grid {
+    grid-area: main;
+}
+.articles article {
+    max-width: 40%;
+    display: inline-block;
 }
