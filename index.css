@@ -13,7 +13,7 @@ nav a:link, a:visited {
     text-decoration: none;
     cursor: pointer;
 }
-nav a:link:active, a:visited:active {
+nav a:link:active{
     color: red;
 }
 footer{
