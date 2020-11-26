@@ -16,8 +16,16 @@
     </nav>
     <br>
     <br>
-    <form action="https://www.savatarian.com/html5/form.php">
-
+    <form style="width: 550px" action="https://www.savatarian.com/html5/form.php">
+        <checkbox>
+            <label for="lekker-eten">Lekker eten:</label><br>
+            <input type="checkbox" id="lekker-eten" value="Sperciebonen">
+            <span class="checkbox">Sperciebonen</span><br>
+            <input type="checkbox" name="lekker-eten" value="Aardappelen">
+            <span class="checkbox">Aardappelen</span><br>
+            <input type="checkbox" name="lekker-eten" value="Hamburger">
+            <span class="checkbox">Hamburger</span>
+        </checkbox>
         <information>
             <div><label>Voornaam: </label> <input type="text" name="voornaam"></div>
         <br>
@@ -61,20 +69,11 @@
         <br>
         <br>
 
-        <checkbox>
-            <label for="lekker-eten">Lekker eten:</label><br>
-            <input type="checkbox" name="lekker-eten" value="Sperciebonen">
-            <span class="checkbox">Sperciebonen</span><br>
-            <input type="checkbox" name="lekker-eten" value="Aardappelen">
-            <span class="checkbox">Aardappelen</span><br>
-            <input type="checkbox" name="lekker-eten" value="Hamburger">
-            <span class="checkbox">Hamburger</span>
-        </checkbox>
-
         <br>
         <br>
 
         <send>
+            <input type="reset">
             <input type="submit" name="confirm">
         </send>
     </form>
