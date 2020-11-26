@@ -1,8 +1,16 @@
 body {
     background-color: rgb(252, 235, 235);
 }
-
-
 .image {
     float: right;
+}
+form {
+    background-color: rgb(252, 235, 235);
+}
+checkbox {
+    float: right;
+}
+send {
+    float: bottom;
+    width: 50%;
 }
