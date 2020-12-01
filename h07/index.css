@@ -1,0 +1,53 @@
+/* pc */
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #fcf4ec;
+}
+header {
+    background-color: #caecde;
+}
+header img {
+    margin-left: 485px;
+    width: 450px;
+}
+nav {
+    padding: 15px;
+    background-color: grey;
+    position: center;
+}
+nav a {
+    color: white;
+    margin-left: 30px;
+}
+.main {
+    grid-gap: 10px;
+    display: grid;
+    grid-template-areas:
+    'menu main main main'
+    'menu main main main';
+}
+section article h1 {
+    color: orangered;
+}
+.news {
+    margin-left: 50px;
+    grid-area: menu;
+}
+
+/* tablet */
+@media all and (min-width:724px) and (max-width:1040px) {
+    .main {
+        grid-template-areas:
+        'menu main main'
+        'menu main main';
+        grid-template-columns:33% 33% 33%;
+        display:grid;
+    }
+    .news {
+        margin-left: 5px;
+    }
+    article p img {
+        width: 245px;
+    }
+}
