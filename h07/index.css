@@ -24,8 +24,8 @@ nav a {
     grid-gap: 10px;
     display: grid;
     grid-template-areas:
-    'menu main main main'
-    'menu main main main';
+    'menu main main'
+    'menu main main';
 }
 section article h1 {
     color: orangered;
