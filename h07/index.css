@@ -1,24 +1,24 @@
-/* pc */
+/* laptop */
 body {
     font-family: Arial;
     margin: 0;
     background-color: #fcf4ec;
 }
 header {
+    text-align: center;
     background-color: #caecde;
 }
 header img {
-    margin-left: 485px;
-    width: 450px;
+    width: 200px;
 }
 nav {
-    padding: 15px;
     background-color: grey;
     position: center;
+    padding: 10px;
 }
 nav a {
+    margin-left: 20px;
     color: white;
-    margin-left: 30px;
 }
 .main {
     grid-gap: 10px;
@@ -34,6 +34,14 @@ section article h1 {
     margin-left: 50px;
     grid-area: menu;
 }
+footer {
+    padding: 20px;
+    background-color: rgb(128,128,128);
+    color: white;
+}
+footer h3 {
+    color: white;
+}
 
 /* tablet */
 @media all and (min-width:724px) and (max-width:1040px) {
@@ -48,10 +56,10 @@ section article h1 {
         margin-left: 5px;
     }
     article p img {
-        width: 245px;
+        width: 240px;
     }
 }
-/* phone */
+/* telefoon */
 @media all and (max-width: 724px) {
     nav {
         background-color: #fcf4ec;
@@ -59,17 +67,17 @@ section article h1 {
     }
     nav a {
         width: 100%;
-        padding: 9px;
+        padding: 8px;
         background-color: grey;
         display: block;
-        margin-left: 3%;
+        margin-left:-3%;
         margin-top: 1px;
     }
     .navtop {
-        margin-top: -3%;
+        margin-top: -2.8%;
     }
     article p img {
-        width: 160px;
+        width: 150px;
     }
     .main {
         grid-template-areas:
@@ -82,5 +90,8 @@ section article h1 {
     }
     .news {
         margin-left: 5px;
+    }
+    article {
+        margin-left:5px;
     }
 }
