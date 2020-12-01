@@ -51,3 +51,36 @@ section article h1 {
         width: 245px;
     }
 }
+/* phone */
+@media all and (max-width: 724px) {
+    nav {
+        background-color: #fcf4ec;
+        margin: 0;
+    }
+    nav a {
+        width: 100%;
+        padding: 9px;
+        background-color: grey;
+        display: block;
+        margin-left: 3%;
+        margin-top: 1px;
+    }
+    .navtop {
+        margin-top: -3%;
+    }
+    article p img {
+        width: 160px;
+    }
+    .main {
+        grid-template-areas:
+        'menu'
+        'main'
+        'main'
+        'main'
+        'main';
+        display: grid;
+    }
+    .news {
+        margin-left: 5px;
+    }
+}
