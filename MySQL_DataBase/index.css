@@ -75,6 +75,26 @@ body{
     margin-left: -60%;
 }
 
+#radio5:checked ~ .first{
+    margin-left: -80%;
+}
+
+#radio6:checked ~ .first{
+    margin-left: -100%;
+}
+
+#radio7:checked ~ .first{
+    margin-left: -120%;
+}
+
+#radio8:checked ~ .first{
+    margin-left: -1400%;
+}
+
+#radio9:checked ~ .first{
+    margin-left: -160%;
+}
+
 .navigation-auto{
     position: absolute;
     display: flex;
