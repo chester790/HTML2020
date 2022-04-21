@@ -130,22 +130,22 @@ body{
     background: #40D3DC;
 }
 
-#radio5:checked ~ .navigation-auto .auto-btn4{
+#radio5:checked ~ .navigation-auto .auto-btn5{
     background: #40D3DC;
 }
 
-#radio6:checked ~ .navigation-auto .auto-btn4{
+#radio6:checked ~ .navigation-auto .auto-btn6{
     background: #40D3DC;
 }
 
-#radio7:checked ~ .navigation-auto .auto-btn4{
+#radio7:checked ~ .navigation-auto .auto-btn7{
     background: #40D3DC;
 }
 
-#radio8:checked ~ .navigation-auto .auto-btn4{
+#radio8:checked ~ .navigation-auto .auto-btn8{
     background: #40D3DC;
 }
 
-#radio9:checked ~ .navigation-auto .auto-btn4{
+#radio9:checked ~ .navigation-auto .auto-btn9{
     background: #40D3DC;
 }
