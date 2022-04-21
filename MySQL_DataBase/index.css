@@ -129,3 +129,23 @@ body{
 #radio4:checked ~ .navigation-auto .auto-btn4{
     background: #40D3DC;
 }
+
+#radio5:checked ~ .navigation-auto .auto-btn4{
+    background: #40D3DC;
+}
+
+#radio6:checked ~ .navigation-auto .auto-btn4{
+    background: #40D3DC;
+}
+
+#radio7:checked ~ .navigation-auto .auto-btn4{
+    background: #40D3DC;
+}
+
+#radio8:checked ~ .navigation-auto .auto-btn4{
+    background: #40D3DC;
+}
+
+#radio9:checked ~ .navigation-auto .auto-btn4{
+    background: #40D3DC;
+}
